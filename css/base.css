@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  // background-image: url("../images/bg.jpg");
-}
-
 a {
   font-family: Helvetica;
 }
@@ -13,3 +9,5 @@ a {
 .logo {
   width: 50px;
 }
+
+/*# sourceMappingURL=base.css.map */
