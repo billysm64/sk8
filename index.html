@@ -4,21 +4,21 @@
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8ee7b0e5d5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./scss/base.css">
+    <link rel="stylesheet" href="./css/base.css">
     <title>sk8</title>
     <section class="container">
   </head>
   <header>
-    <div class="row">
-      <p class="col-sm-10 headerp d.flex align-content-center"> SUBSCRIBE •</p>
-      <p class="col-sm fa fa-facebook-square"></p>
-      <p class="col-sm fa fa-rss-square"></p>
-      <p class="col-sm fa fa-twitter-square"></p>
-      <p class="col-sm fa fa-youtube-square"></p>
+    <div class="row pull-right logotop">
+      <p class="col-sm-2 headerp d.flex align-content-center"> SUBSCRIBE •</p>
+      <p class="col-sm-2 fa fa-facebook-square"></p>
+      <p class="col-sm-2 fa fa-rss-square"></p>
+      <p class="col-sm-2 fa fa-twitter-square"></p>
+      <p class="col-sm-2 fa fa-youtube-square"></p>
     </div>
     <nav>
       <ul class="row">
-        <li class="col-sm">- SK8 NEWS -</li>
+        <li class="col-sm">— SK8 NEWS —</li>
         <li class="col-sm">— SKATEBOARDERS —</li>
         <li class="col-sm">— BOARD DESIGN —</li>
         <li class="col-sm">— CONTACT US —</li>
@@ -26,19 +26,26 @@
     </nav>
   </header>
   <body>
-    <img src="./images/peralta-logo.png" alt="..." />
-    <img src="./images/top-image.png" alt="..." />
-    <article>
-      bla
-    </article>
-    <article>
-      BLA
-    </article>
-    <article>
-      bLa
-    </article>
-    <div class="arrow">
-      <p>SKATEBOARDERS</p>
+    <div class="fakecarousel">
+      <img class="logoimg" src="./images/peralta-logo.png" alt="..." />
+      <img class="camecraman" src="./images/top-image.png" alt="..." />
+    </div>
+    <div class="row justify-content-center">
+      <article class="col-3 article">
+        <h1>Article 1</h1>
+        <p>NOTICE! DONT TURN ON THE LIGHT! DONT MAKE ANY NOISE! DONT TURN ON THE LIGHT IN THE BATHROOM BECAUSE THERE'S A MUD TURTLE ASLEEP IN THE BATHTUB. BOBBY</p>
+        <a class="readmore" src="https://en.wikisource.org/wiki/Bobby_Bumps_Adopts_a_Turtle">[ READ MORE ]</a>
+      </article>
+      <article class="col-3 article">
+        <h1>Article 2</h1>
+        <p>Two gangs——one dishpan——one runaway horse. ⁠Result—International Conference.</p>
+        <a class="readmore" src="https://en.wikisource.org/wiki/Little_Annie_Rooney_(1925_film)">[ READ MORE ]</a>
+      </article>
+      <article class="col-3 article">
+        <h1>Article 3</h1>
+        <p>Why—why someone said you resembled a—Miss Moreland, and so I just called up all the Morelands in the directory.</p>
+        <a class="readmore" src="https://en.wikisource.org/wiki/The_Woman_in_the_Suitcase">[ READ MORE ]</a>
+      </article>
     </div>
     <div class="celebs">
       <div class="row">
@@ -50,31 +57,41 @@
           </div>
         </div>
         <div class="col-4 right">
-        <img src="./images/sk8er-2.png" style="width: 600px; align: right;" alt="?" />
+        <img class="uniquesize" style="width: 300px;" src="./images/sk8er-2.png" alt="?" />
       </div>
     </div>
-    <div class="skateboards">
-      <div class="col-12 row skate">
-        <img src="./images/sk8-1.png" alt="..." />
-        <img src="./images/sk8-2.png" alt="..." />
-        <img src="./images/sk8-3.png" alt="..." />
-        <img src="./images/sk8-4.png" alt="..." />
-        <img src="./images/sk8-5.png" alt="..." />
-        <img src="./images/sk8-6.png" alt="..." />
-        <img src="./images/sk8-7.png" alt="..." />
-        <img src="./images/sk8-8.png" alt="..." />
-        <img src="./images/sk8-9.png" alt="..." />
-        <img src="./images/sk8-10.png" alt="..." />
-      </div>
     </div>
-    <div class="contact">
-      <p class="col-sm fa fa-facebook-square"></p>
-      <p class="col-sm fa fa-rss-square"></p>
-      <p class="col-sm fa fa-twitter-square"></p>
-      <p class="col-sm fa fa-youtube-square"></p>
-      <p>AHLADHLSDALHALDF</p>
+    <div>
+      <div class="row justify-content-center skateboards">
+        <img class="col-2" src="./images/sk8-1.png" alt="..." />
+        <img class="col-2" src="./images/sk8-2.png" alt="..." />
+        <img class="col-2" src="./images/sk8-3.png" alt="..." />
+        <img class="col-2" src="./images/sk8-4.png" alt="..." />
+        <img class="col-2" src="./images/sk8-5.png" alt="..." />
+        <img class="col-2" src="./images/sk8-6.png" alt="..." />
+        <img class="col-2" src="./images/sk8-7.png" alt="..." />
+        <img class="col-2" src="./images/sk8-8.png" alt="..." />
+        <img class="col-2" src="./images/sk8-9.png" alt="..." />
+        <img class="col-2" src="./images/sk8-10.png" alt="..." />
+      </div>
     </div>
   </div>
-
   </body>
+  <footer class="row contact">
+    <div class="col-6">
+      <h1>Contact Us for More Information</h1>
+      <p class="contact-text">The ghost of Marley, who was like unto Scrooge, warns him of his punishment hereafter unless he becomes a different man.</p>
+      <p class="col-sm fa fa-facebook-square contact-logo"></p>
+      <p class="col-sm fa fa-rss-square contact-logo"></p>
+      <p class="col-sm fa fa-twitter-square contact-logo"></p>
+      <p class="col-sm fa fa-youtube-square contact-logo"></p>
+    </div>
+    <div class="col-6">
+      <form>
+        <input type="text" id="name" name="name" placeholder="NAME" />
+        <input type="text" id="email" name="email" placeholder="EMAIL" />
+        <input type="text" id="message" name="message" placeholder="YOUR MESSAGE" />
+        <button type="submit">SUBMIT</button>
+      </form>
+  </footer>
 </html>
